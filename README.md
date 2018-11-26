@@ -1,10 +1,10 @@
-# biggan-pytorch
+# Large-scale-GAN-pytorch
 
 Pytorch implementation of large scale GAN for high quality synthetic image generation.
 
-## train imagenet
+## Train imagenet
 
-for 128\*128\*3 resolution
+For 128\*128\*3 resolution
 
     python main.py --batch_size 64  --dataset imagenet --adv_loss hinge --version biggan_imagenet --image_path /data/datasets
 
@@ -16,7 +16,7 @@ for 128\*128\*3 resolution
 
 ## Different
 
-* not use cross-replica BatchNorm (Ioffe & Szegedy, 2015) in G
+* not used cross-replica BatchNorm (Ioffe & Szegedy, 2015) in G
 
 ## Compatability
 
@@ -26,11 +26,11 @@ for 128\*128\*3 resolution
 ## Results
 
 LSUN DATASETS(two classes): classroom and church_outdoor
-* iter 82200 (128x128) batch_size 64
+* Iteration 82200 (128x128) batch_size 64
 ![](./results/iter_82200_fake.png)
-* iter 128200
+* Iteration 128200
 ![](./results/iter_128200_fake.png)
-* iter 365000
+* Iteration 365000
 ![](./results/iter_365000_fake.png)
 
 
