@@ -1,6 +1,6 @@
 # biggan-pytorch
 
-Pytorch implementation of LARGE SCALE GAN TRAINING FOR HIGH FIDELITY NATURAL IMAGE SYNTHESIS (BigGAN)
+Pytorch implementation of large scale GAN for high quality synthetic image generation.
 
 ## train imagenet
 
